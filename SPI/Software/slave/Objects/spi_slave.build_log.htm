@@ -1,0 +1,268 @@
+<html>
+<body>
+<pre>
+<h1>µVision Build Log</h1>
+<h2>Tool Versions:</h2>
+IDE-Version: µVision V5.38.0.0
+Copyright (C) 2022 ARM Ltd and ARM Germany GmbH. All rights reserved.
+License Information: nam vu, namvu, LIC=----
+ 
+Tool Versions:
+Toolchain:       MDK-Lite  Version: 5.38.0.0
+Toolchain Path:  C:\Keil_v5\ARM\ARMCLANG\Bin
+C Compiler:      ArmClang.exe V6.19
+Assembler:       Armasm.exe V6.19
+Linker/Locator:  ArmLink.exe V6.19
+Library Manager: ArmAr.exe V6.19
+Hex Converter:   FromElf.exe V6.19
+CPU DLL:         SARMCM3.DLL V5.38.0.0
+Dialog DLL:      DCM.DLL V1.17.5.0
+Target DLL:      STLink\ST-LINKIII-KEIL_SWO.dll V3.1.0.0
+Dialog DLL:      TCM.DLL V1.56.4.0
+ 
+<h2>Project:</h2>
+D:\Hoc\AUTOSAR\Automative\SPI\Software\slave\spi_slave.uvprojx
+Project File Date:  02/11/2025
+
+<h2>Output:</h2>
+*** Using Compiler 'V6.19', folder: 'C:\Keil_v5\ARM\ARMCLANG\Bin'
+Build target 'Target 1'
+main.c(1): warning: // comments are not allowed in this language [-Wcomment]
+#include "stm32f10x.h"                  // Device header
+                                        ^
+main.c(1): warning: In file included from...
+D:/Work-app/KeilC/setup/Keil/STM32F1xx_DFP/2.4.1/Device/Include\stm32f10x.h(18): warning: invalid UTF-8 in comment [-Winvalid-utf8]
+  *              - To use or not the peripheral<92>s drivers in application code(i.e. 
+                                               ^
+D:/Work-app/KeilC/setup/Keil/STM32F1xx_DFP/2.4.1/Device/Include\stm32f10x.h(19): warning: invalid UTF-8 in comment [-Winvalid-utf8]
+  *                code will be based on direct access to peripheral<92>s registers 
+                                                                    ^
+D:/Work-app/KeilC/setup/Keil/STM32F1xx_DFP/2.4.1/Device/Include\stm32f10x.h(26): warning: invalid UTF-8 in comment [-Winvalid-utf8]
+  *           - Macros to access peripheral<92>s registers hardware
+                                           ^
+main.c(1): warning: In file included from...
+D:/Work-app/KeilC/setup/Keil/STM32F1xx_DFP/2.4.1/Device/Include\stm32f10x.h(8347): warning: In file included from...
+./RTE/Device/STM32F103C8\stm32f10x_conf.h(63): warning: In file included from...
+D:/Work-app/KeilC/setup/Keil/STM32F1xx_DFP/2.4.1/Device/StdPeriph_Driver/inc\stm32f10x_gpio.h(31): warning: In file included from...
+D:/Work-app/KeilC/setup/Keil/STM32F1xx_DFP/2.4.1/Device/Include\stm32f10x.h(18): warning: invalid UTF-8 in comment [-Winvalid-utf8]
+  *              - To use or not the peripheral<92>s drivers in application code(i.e. 
+                                               ^
+D:/Work-app/KeilC/setup/Keil/STM32F1xx_DFP/2.4.1/Device/Include\stm32f10x.h(19): warning: invalid UTF-8 in comment [-Winvalid-utf8]
+  *                code will be based on direct access to peripheral<92>s registers 
+                                                                    ^
+D:/Work-app/KeilC/setup/Keil/STM32F1xx_DFP/2.4.1/Device/Include\stm32f10x.h(26): warning: invalid UTF-8 in comment [-Winvalid-utf8]
+  *           - Macros to access peripheral<92>s registers hardware
+                                           ^
+main.c(1): warning: In file included from...
+D:/Work-app/KeilC/setup/Keil/STM32F1xx_DFP/2.4.1/Device/Include\stm32f10x.h(8347): warning: In file included from...
+./RTE/Device/STM32F103C8\stm32f10x_conf.h(75): warning: In file included from...
+D:/Work-app/KeilC/setup/Keil/STM32F1xx_DFP/2.4.1/Device/StdPeriph_Driver/inc\stm32f10x_rcc.h(31): warning: In file included from...
+D:/Work-app/KeilC/setup/Keil/STM32F1xx_DFP/2.4.1/Device/Include\stm32f10x.h(18): warning: invalid UTF-8 in comment [-Winvalid-utf8]
+  *              - To use or not the peripheral<92>s drivers in application code(i.e. 
+                                               ^
+D:/Work-app/KeilC/setup/Keil/STM32F1xx_DFP/2.4.1/Device/Include\stm32f10x.h(19): warning: invalid UTF-8 in comment [-Winvalid-utf8]
+  *                code will be based on direct access to peripheral<92>s registers 
+                                                                    ^
+D:/Work-app/KeilC/setup/Keil/STM32F1xx_DFP/2.4.1/Device/Include\stm32f10x.h(26): warning: invalid UTF-8 in comment [-Winvalid-utf8]
+  *           - Macros to access peripheral<92>s registers hardware
+                                           ^
+main.c(1): warning: In file included from...
+D:/Work-app/KeilC/setup/Keil/STM32F1xx_DFP/2.4.1/Device/Include\stm32f10x.h(8347): warning: In file included from...
+./RTE/Device/STM32F103C8\stm32f10x_conf.h(84): warning: In file included from...
+D:/Work-app/KeilC/setup/Keil/STM32F1xx_DFP/2.4.1/Device/StdPeriph_Driver/inc\stm32f10x_spi.h(31): warning: In file included from...
+D:/Work-app/KeilC/setup/Keil/STM32F1xx_DFP/2.4.1/Device/Include\stm32f10x.h(18): warning: invalid UTF-8 in comment [-Winvalid-utf8]
+  *              - To use or not the peripheral<92>s drivers in application code(i.e. 
+                                               ^
+D:/Work-app/KeilC/setup/Keil/STM32F1xx_DFP/2.4.1/Device/Include\stm32f10x.h(19): warning: invalid UTF-8 in comment [-Winvalid-utf8]
+  *                code will be based on direct access to peripheral<92>s registers 
+                                                                    ^
+D:/Work-app/KeilC/setup/Keil/STM32F1xx_DFP/2.4.1/Device/Include\stm32f10x.h(26): warning: invalid UTF-8 in comment [-Winvalid-utf8]
+  *           - Macros to access peripheral<92>s registers hardware
+                                           ^
+main.c(1): warning: In file included from...
+D:/Work-app/KeilC/setup/Keil/STM32F1xx_DFP/2.4.1/Device/Include\stm32f10x.h(8347): warning: In file included from...
+./RTE/Device/STM32F103C8\stm32f10x_conf.h(87): warning: In file included from...
+D:/Work-app/KeilC/setup/Keil/STM32F1xx_DFP/2.4.1/Device/StdPeriph_Driver/inc\stm32f10x_tim.h(31): warning: In file included from...
+D:/Work-app/KeilC/setup/Keil/STM32F1xx_DFP/2.4.1/Device/Include\stm32f10x.h(18): warning: invalid UTF-8 in comment [-Winvalid-utf8]
+  *              - To use or not the peripheral<92>s drivers in application code(i.e. 
+                                               ^
+D:/Work-app/KeilC/setup/Keil/STM32F1xx_DFP/2.4.1/Device/Include\stm32f10x.h(19): warning: invalid UTF-8 in comment [-Winvalid-utf8]
+  *                code will be based on direct access to peripheral<92>s registers 
+                                                                    ^
+D:/Work-app/KeilC/setup/Keil/STM32F1xx_DFP/2.4.1/Device/Include\stm32f10x.h(26): warning: invalid UTF-8 in comment [-Winvalid-utf8]
+  *           - Macros to access peripheral<92>s registers hardware
+                                           ^
+main.c(1): warning: In file included from...
+D:/Work-app/KeilC/setup/Keil/STM32F1xx_DFP/2.4.1/Device/Include\stm32f10x.h(8347): warning: In file included from...
+./RTE/Device/STM32F103C8\stm32f10x_conf.h(96): warning: In file included from...
+D:/Work-app/KeilC/setup/Keil/STM32F1xx_DFP/2.4.1/Device/StdPeriph_Driver/inc\misc.h(31): warning: In file included from...
+D:/Work-app/KeilC/setup/Keil/STM32F1xx_DFP/2.4.1/Device/Include\stm32f10x.h(18): warning: invalid UTF-8 in comment [-Winvalid-utf8]
+  *              - To use or not the peripheral<92>s drivers in application code(i.e. 
+                                               ^
+D:/Work-app/KeilC/setup/Keil/STM32F1xx_DFP/2.4.1/Device/Include\stm32f10x.h(19): warning: invalid UTF-8 in comment [-Winvalid-utf8]
+  *                code will be based on direct access to peripheral<92>s registers 
+                                                                    ^
+D:/Work-app/KeilC/setup/Keil/STM32F1xx_DFP/2.4.1/Device/Include\stm32f10x.h(26): warning: invalid UTF-8 in comment [-Winvalid-utf8]
+  *           - Macros to access peripheral<92>s registers hardware
+                                           ^
+main.c(14): warning: a function declaration without a prototype is deprecated in all versions of C [-Wstrict-prototypes]
+void RCC_Config(){
+               ^
+                void
+main.c(14): warning: no previous prototype for function 'RCC_Config' [-Wmissing-prototypes]
+void RCC_Config(){
+     ^
+main.c(14): note: declare 'static' if the function is not intended to be used outside of this translation unit
+void RCC_Config(){
+^
+static 
+main.c(20): warning: a function declaration without a prototype is deprecated in all versions of C [-Wstrict-prototypes]
+void GPIO_Config(){
+                ^
+                 void
+main.c(20): warning: no previous prototype for function 'GPIO_Config' [-Wmissing-prototypes]
+void GPIO_Config(){
+     ^
+main.c(20): note: declare 'static' if the function is not intended to be used outside of this translation unit
+void GPIO_Config(){
+^
+static 
+main.c(33): warning: a function declaration without a prototype is deprecated in all versions of C [-Wstrict-prototypes]
+void TIM_Config(){
+               ^
+                void
+main.c(1): warning: In file included from...
+D:/Work-app/KeilC/setup/Keil/STM32F1xx_DFP/2.4.1/Device/Include\stm32f10x.h(8347): warning: In file included from...
+./RTE/Device/STM32F103C8\stm32f10x_conf.h(87): warning: In file included from...
+D:/Work-app/KeilC/setup/Keil/STM32F1xx_DFP/2.4.1/Device/StdPeriph_Driver/inc\stm32f10x_tim.h(50): warning: padding size of 'TIM_TimeBaseInitTypeDef' with 1 byte to alignment boundary [-Wpadded]
+typedef struct
+        ^
+main.c(33): warning: no previous prototype for function 'TIM_Config' [-Wmissing-prototypes]
+void TIM_Config(){
+     ^
+main.c(33): note: declare 'static' if the function is not intended to be used outside of this translation unit
+void TIM_Config(){
+^
+static 
+main.c(46): warning: no previous prototype for function 'delay_ms' [-Wmissing-prototypes]
+void delay_ms(uint16_t time){
+     ^
+main.c(46): note: declare 'static' if the function is not intended to be used outside of this translation unit
+void delay_ms(uint16_t time){
+^
+static 
+main.c(51): warning: a function declaration without a prototype is deprecated in all versions of C [-Wstrict-prototypes]
+void Clock(){
+          ^
+           void
+main.c(51): warning: no previous prototype for function 'Clock' [-Wmissing-prototypes]
+void Clock(){
+     ^
+main.c(51): note: declare 'static' if the function is not intended to be used outside of this translation unit
+void Clock(){
+^
+static 
+main.c(58): warning: a function declaration without a prototype is deprecated in all versions of C [-Wstrict-prototypes]
+void SPI_Initial(){
+                ^
+                 void
+main.c(58): warning: no previous prototype for function 'SPI_Initial' [-Wmissing-prototypes]
+void SPI_Initial(){
+     ^
+main.c(58): note: declare 'static' if the function is not intended to be used outside of this translation unit
+void SPI_Initial(){
+^
+static 
+main.c(70): warning: variable declaration in for loop is a C99-specific feature [-Wc99-extensions]
+        for(int i = 0; i < 8; i++){ 
+            ^
+main.c(70): warning: GCC does not allow variable declarations in for loop initializers before C99 [-Wgcc-compat]
+main.c(65): warning: no previous prototype for function 'SPI_Slave_Receive' [-Wmissing-prototypes]
+uint8_t SPI_Slave_Receive(void){
+        ^
+main.c(65): note: declare 'static' if the function is not intended to be used outside of this translation unit
+uint8_t SPI_Slave_Receive(void){
+^
+static 
+main.c(88): warning: a function declaration without a prototype is deprecated in all versions of C [-Wstrict-prototypes]
+int main(){
+        ^
+         void
+main.c(94): warning: variable declaration in for loop is a C99-specific feature [-Wc99-extensions]
+                        for(int i = 0; i < 7; i++){
+                            ^
+main.c(94): warning: GCC does not allow variable declarations in for loop initializers before C99 [-Wgcc-compat]
+main.c(87): warning: no previous extern declaration for non-static variable 'DataReceive' [-Wmissing-variable-declarations]
+uint8_t DataReceive[7];
+        ^
+main.c(87): note: declare 'static' if the variable is not intended to be used outside of this translation unit
+uint8_t DataReceive[7];
+^
+38 warnings generated.
+compiling main.c...
+linking...
+Program Size: Code=2292 RO-data=252 RW-data=0 ZI-data=1640  
+".\Objects\spi_slave.axf" - 0 Error(s), 38 Warning(s).
+
+<h2>Software Packages used:</h2>
+
+Package Vendor: ARM
+                http://www.keil.com/pack/ARM.CMSIS.5.9.0.pack
+                ARM.CMSIS.5.9.0
+                CMSIS (Common Microcontroller Software Interface Standard)
+   * Component: CORE Version: 5.6.0
+
+Package Vendor: Keil
+                https://www.keil.com/pack/Keil.STM32F1xx_DFP.2.4.1.pack
+                Keil.STM32F1xx_DFP.2.4.1
+                STMicroelectronics STM32F1 Series Device Support, Drivers and Examples
+   * Component: Startup Version: 1.0.0
+   * Component: Framework Version: 3.6.0
+   * Component: GPIO Version: 3.6.0
+   * Component: RCC Version: 3.6.0
+   * Component: SPI Version: 3.6.0
+   * Component: TIM Version: 3.6.0
+
+<h2>Collection of Component include folders:</h2>
+  ./RTE/Device/STM32F103C8
+  ./RTE/_Target_1
+  D:/Work-app/KeilC/setup/ARM/CMSIS/5.9.0/CMSIS/Core/Include
+  D:/Work-app/KeilC/setup/Keil/STM32F1xx_DFP/2.4.1/Device/Include
+  D:/Work-app/KeilC/setup/Keil/STM32F1xx_DFP/2.4.1/Device/StdPeriph_Driver/inc
+
+<h2>Collection of Component Files used:</h2>
+
+   * Component: ARM::CMSIS:CORE:5.6.0
+
+   * Component: Keil::Device:Startup:1.0.0
+      Include file:  RTE_Driver/Config/RTE_Device.h
+      Source file:   Device/Source/ARM/startup_stm32f10x_md.s
+      Source file:   Device/Source/ARM/STM32F1xx_OPT.s
+      Source file:   Device/Source/system_stm32f10x.c
+
+   * Component: Keil::Device:StdPeriph Drivers:Framework:3.6.0
+      Include file:  Device/StdPeriph_Driver/inc/misc.h
+      Source file:   Device/StdPeriph_Driver/templates/stm32f10x_it.c
+      Source file:   Device/StdPeriph_Driver/src/misc.c
+      Source file:   Device/StdPeriph_Driver/templates/stm32f10x_conf.h
+      Include file:  Device/StdPeriph_Driver/templates/stm32f10x_it.h
+
+   * Component: Keil::Device:StdPeriph Drivers:GPIO:3.6.0
+      Source file:   Device/StdPeriph_Driver/src/stm32f10x_gpio.c
+      Include file:  Device/StdPeriph_Driver/inc/stm32f10x_gpio.h
+
+   * Component: Keil::Device:StdPeriph Drivers:RCC:3.6.0
+      Include file:  Device/StdPeriph_Driver/inc/stm32f10x_rcc.h
+      Source file:   Device/StdPeriph_Driver/src/stm32f10x_rcc.c
+
+   * Component: Keil::Device:StdPeriph Drivers:SPI:3.6.0
+      Include file:  Device/StdPeriph_Driver/inc/stm32f10x_spi.h
+      Source file:   Device/StdPeriph_Driver/src/stm32f10x_spi.c
+
+   * Component: Keil::Device:StdPeriph Drivers:TIM:3.6.0
+      Source file:   Device/StdPeriph_Driver/src/stm32f10x_tim.c
+      Include file:  Device/StdPeriph_Driver/inc/stm32f10x_tim.h
+Build Time Elapsed:  00:00:01
+</pre>
+</body>
+</html>
